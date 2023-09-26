@@ -7,7 +7,9 @@
   import LightningBolt from './LightningBolt.svelte';
 </script>
 
+<div class="w-1/2 h-3/6" style="height:500px">
 <LightningBolt />
+</div>
 
 <!--
 <img src={bolt} class="w-1/6 mix-blend-lighten place-self-center mt-10 animate-pulse" />
