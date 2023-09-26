@@ -9,8 +9,8 @@ import {
 	WebGLRenderer
 } from 'three';
 
-import { GLTFLoader } from '$lib/threejs/GLTFLoader.js';
-const lightningBoltModel: string = '/src/lib/models/scene.gltf';
+import { OBJLoader } from '$lib/threejs/OBJLoader.js';
+const lightningBoltModel: string = '/src/lib/models/LightningSymbol_OBJ/LightningSymbol.obj';
 console.log(lightningBoltModel);
 
 const scene = new Scene();
