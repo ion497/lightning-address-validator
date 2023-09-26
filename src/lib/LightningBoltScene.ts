@@ -10,7 +10,7 @@ import {
 } from 'three';
 
 import { GLTFLoader } from '$lib/threejs/GLTFLoader.js';
-const lightningBoltModel: string = '/src/lib/models/lightningbolt.gltf';
+const lightningBoltModel: string = '/src/lib/models/scene.gltf';
 console.log(lightningBoltModel);
 
 const scene = new Scene();
