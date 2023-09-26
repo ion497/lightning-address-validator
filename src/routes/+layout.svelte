@@ -4,7 +4,7 @@
 	import './styles.css';
 </script>
 
-<div class="app bg-black w-full bg-gradient-to-t via-indigo-900 from-purple-900">
+<div class="app bg-black w-full bg-gradient-to-b via-indigo-900 from-purple-900">
 	<Header />
 
 	<main>

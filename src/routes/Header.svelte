@@ -2,10 +2,24 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
+	import { onMount } from 'svelte';
+
+	onMount( async () => {
+		function highlightLinkWhenScrolled() {
+			window.addEventListener('scroll', () => {
+				if (document.querySelector('.app').getBoundingClientRect().top < -50) {
+					document.querySelector('.navbar').classList.add('bg-black');
+				} else {
+					document.querySelector('.navbar').classList.remove('bg-black');
+				}
+			});
+		}
+		highlightLinkWhenScrolled();
+	});
 </script>
 
 <header class="sticky top-0 z-50">
-	<div class="navbar bg-black bg-opacity-80">
+	<div class="navbar bg-opacity-80 transform-all duration-300">
 		<div class="navbar-start">
 			<div class="dropdown">
 				<label tabindex="0" class="btn btn-ghost btn-circle">
@@ -19,13 +33,13 @@
 			</div>
 		</div>
 		<div class="navbar-center">
-			<a class="normal-case text-xl text-white" href="https://kit.svelte.dev">
-				<!--<img src={logo} alt="SvelteKit" class="w-8"/>-->
+			<a class="normal-case text-xl text-white" href="/">
+				<!--<img src={logo} alt="Lightning Address Validator" class="w-8"/>-->
 				Lightning Address Validator
 			</a>
 		</div>
 		<div class="navbar-end">
-			<a href="https://github.com/sveltejs/kit">
+			<a href="https://github.com/ion497/lightning-address-validator">
 				<img src={github} alt="GitHub" class="w-8 invert" />
 			</a>
 		</div>

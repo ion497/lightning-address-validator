@@ -13,7 +13,7 @@
 <img src={bolt} class="w-1/6 mix-blend-lighten place-self-center mt-10 animate-pulse" />
 -->
 
-<div class="hero min-h-full lg:px-20 ">
+<div class="hero min-h-full lg:px-20 mt-10 lg:mt-20">
   <div class="hero-content flex-col lg:flex-row ">
     <div class="text-center lg:text-left ">
       <h1 class="text-5xl font-bold text-neutral-100">Validate Your <br />Lightning Address</h1>
