@@ -12,5 +12,5 @@ newmtl LightningSymbol
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka F:\_Files\LightningSymbol\LightningSymbol_Max\LightningSymbol_BaseColor.png
-	map_Kd F:\_Files\LightningSymbol\LightningSymbol_Max\LightningSymbol_BaseColor.png
+	map_Ka /src/lib/models/LightningSymbol_OBJ/LightningSymbol_BaseColor.png
+	map_Kd /src/lib/models/LightningSymbol_OBJ/LightningSymbol_BaseColor.png
