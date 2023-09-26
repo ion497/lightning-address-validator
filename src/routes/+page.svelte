@@ -2,24 +2,22 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
-	import bolt from '$lib/images/bolt2.png';
-
   import LightningBolt from './LightningBolt.svelte';
 </script>
-
-<div class="w-1/2 h-3/6" style="height:500px">
-<LightningBolt />
-</div>
-
-<!--
-<img src={bolt} class="w-1/6 mix-blend-lighten place-self-center mt-10 animate-pulse" />
--->
 
 <div class="hero min-h-full lg:px-20 mt-10 lg:mt-20">
   <div class="hero-content flex-col lg:flex-row ">
     <div class="text-center lg:text-left ">
-      <h1 class="text-5xl font-bold text-neutral-100">Validate Your <br />Lightning Address</h1>
-      <p class="py-6 text-neutral-300">Run tests on your Bitcoin <a href="https://lightningaddress.com/" class="underline font-semibold text-amber-400 hover:text-amber-200">Lightning Address</a> to make sure it is configured properly and to receive helpful tips to ensure maximum compatibility with Lightning wallets.</p>
+      <div class="grid lg:grid-cols-4 grid-cols-1 gap-4">
+        <div class="col-span-1">
+          <!--<LightningBolt />-->
+          <span class="text-9xl">⚡️</span>
+        </div>
+        <div class="lg:col-span-3 col-span-1 lg:px-0 px-20">
+          <h1 class="text-5xl font-bold text-neutral-100">Validate Your <br />Lightning Address</h1>
+          <p class="py-6 text-neutral-300">Run tests on your Bitcoin <a href="https://lightningaddress.com/" class="underline font-semibold text-amber-400 hover:text-amber-200">Lightning Address</a> to make sure it is configured properly and to receive helpful tips to ensure maximum compatibility with Lightning wallets.</p>
+        </div>
+      </div>
     </div>
 
     <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-gradient-to-tl from-black to-transparent">
