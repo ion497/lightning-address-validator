@@ -1,13 +1,17 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
 	import bolt from '$lib/images/bolt2.png';
 
-
+  import LightningBolt from './LightningBolt.svelte';
 </script>
 
+<LightningBolt />
+
+<!--
 <img src={bolt} class="w-1/6 mix-blend-lighten place-self-center mt-10 animate-pulse" />
+-->
 
 <div class="hero min-h-full lg:px-20 ">
   <div class="hero-content flex-col lg:flex-row ">
