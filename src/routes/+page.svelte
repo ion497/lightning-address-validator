@@ -2,7 +2,6 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
-  import LightningBolt from './LightningBolt.svelte';
 </script>
 
 <div class="hero min-h-full lg:px-20 mt-10 lg:mt-20">
@@ -10,7 +9,6 @@
     <div class="text-center lg:text-left ">
       <div class="grid lg:grid-cols-4 grid-cols-1 gap-4">
         <div class="col-span-1">
-          <!--<LightningBolt />-->
           <span class="text-9xl">⚡️</span>
         </div>
         <div class="lg:col-span-3 col-span-1 lg:px-0 px-20">
